@@ -1,6 +1,6 @@
 A simple shell in C programming. 
-our shell will be able to: 
--Display a promt
+Our shell will be able to: 
+-Display a prompt
 -read inputs/commands
 -parse and tokeniz inputs/commands
 -search and parse commands
