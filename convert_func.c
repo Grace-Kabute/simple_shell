@@ -25,9 +25,9 @@ void long_to_string(long number, char *string, int base)
 		if (cociente < 0)
 			string[index++] = letters[-(cociente % base)];
 		else
-			string[ base;
-	}index++] = letters[cociente % base];
-		cociente /=
+			string[index++] = letters[cociente % base];
+		cociente /= base;
+	}
 	if (inNegative)
 		string[index++] = '-';
 
