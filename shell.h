@@ -33,21 +33,6 @@
 /**
  * @brief Structure representing information related to a program.
  */
-<<<<<<< HEAD
-
-=======
-typedef struct info
-{
-	char *program_name;     
-	char *input_line;       
-	char *command_name;     
-	int exec_counter;       
-	int file_descriptor;    
-	char **tokens;          
-	char **env;             
-	char **alias_list;      
-} data_of_program;
->>>>>>> f5069d8e5d43d0a23bbe36a7d68b917f6be88dc1
 typedef struct info
 {
 	char *program_name;
