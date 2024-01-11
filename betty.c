@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 
 /**
  * get_endianness - checks the endianness of machine
